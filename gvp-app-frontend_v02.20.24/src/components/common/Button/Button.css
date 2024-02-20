@@ -1,0 +1,17 @@
+.button a {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    justify-content: space-between;
+    align-items: center;
+}

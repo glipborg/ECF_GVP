@@ -1,0 +1,33 @@
+.cta-container {
+    height: 150px;
+    width: 100%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cta-container h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .cta-container button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-container button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  

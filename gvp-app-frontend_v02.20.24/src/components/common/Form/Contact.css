@@ -1,0 +1,29 @@
+.contact-form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-color: solid 1px rgb(0, 0, 0);
+    width: calc(100% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .contact-form input, .contact-form select, .contact-form textarea, .contact-form button {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .contact-form button {
+    background-color: rgb(153, 0, 255);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .contact-form button:hover {
+    background-color: rgb(255, 0, 255);
+  }
+
