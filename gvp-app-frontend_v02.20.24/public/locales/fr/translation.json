@@ -1,0 +1,231 @@
+{
+    "Button": {
+        "LogIn": "Me Connecter",
+        "LogOut": "Me déconnecter",
+        "PassRequest": "Demander un nouveau mots de passe",
+        "SignUp": "S'inscrire",
+        "Contact": "Contactez Nous",
+        "DiscoverCar" : "Découvrez la voiture",
+        "Continue": "Continuer sur le site"
+    },
+    
+    "Nav": {
+        "Home": "Accueil",
+        "Services": "Services",
+        "Atelier": "Atelier",
+        "Cars": "Véhicules"
+    },
+
+    "Footer": {
+        "Links": {
+            "Legal": "Mentions Légales",
+            "RGPD": "Politique de Confidentialité",
+            "Hours": "Horaires d'Ouverture",
+            "Address": "Notre Adresse"
+        }
+    },
+
+    "Pages": {
+        "Home": {
+            "section1": {
+                "Title": "Tesla Model Y",
+                "SubTitle": "Réservez votre essai vers le futur"
+            },  
+        
+            "section2": {
+                "Title": "Services",
+                "SubTitle": "Un service qui roule pour vous depuis 15 ans",
+                "ZoomIn": {
+                    "Atelier": {
+                        "Title": "Notre Atelier",
+                        "Subtitle": "Notre savoir faire et notre expertise sont à votre service"
+                    },
+                    "CarsRelated" : {
+                        "New" : {
+                            "Title": "Nos Véhicules Neufs",
+                            "Subtitle": "La route n'attends plus que vous"
+                        },
+                        "Used" : {
+                            "Title": "Nos Occasions Certifiées",
+                            "Subtitle": "Gage de sécurité et accessible"
+                        },
+                        "Accessories" : {
+                            "Title": "Pneus et Accessoires",
+                            "Subtitle": "Tout pour votre voiture"
+                        }
+                    }
+                },
+                "KeyPoints": {
+                    "1": {
+                        "Title": "KeyPoint 1",
+                        "Subtitle": "Ceci est le sous-titre"
+                    },
+                    "2": {
+                        "Title": "KeyPoint 2",
+                        "Subtitle": "Ceci est le sous-titre"
+                    },
+                    "3": {
+                        "Title": "KeyPoint 3",
+                        "Subtitle": "Ceci est le sous-titre"
+                    },
+                    "4": {
+                        "Title": "KeyPoint 4",
+                        "Subtitle": "Ceci est le sous-titre"
+                    },
+                    "CTA": {
+                        "Title": "Une Question?",
+                        "Subtitle": "Nous Sommes la pour vous conseiller"
+                    }
+                }        
+            },
+
+            "section3" : {
+                "Title": "Notre Atelier",
+                "Subtitle": "Ceci est le sous-titre"
+            },
+
+            "section4" : {
+                "Title": "Nos Véhicules",
+                "Subtitle": "Ceci est le sous-titre"
+            },
+
+            "section5" : {
+                "Title": "Qu'en dise nos clients?",
+                "Subtitle": "Parce que les avis de nos clients nous tiennent à coeur"
+            },
+
+            "section6" : {
+                "Title": "Une Question? Un Besoin Spécifique?",
+                "Subtitle": "Nous sommes la pour vous conseiller!"
+            },
+
+            "section7" : {
+                "Title": "Contactez Nous",
+                "Subtitle": "Envoyez nous un message ou appellez nous,"
+            }
+        },
+
+        "AdminDashboard": {
+            "Title": "Bienvenue dans votre espace d'administration",
+            "Calendar": "Emploie du temps",
+            "Customers" : "Clients",
+            "Cars": "Véhicules",
+            "Hours": "Heures d'ouverture",
+            "Manage": "Gestion du contenu",
+            "Sections" : "Sections",
+            "Section": {
+                "Hero": "Section : Ecran d'Accueil",
+                "Services": "Section : Services",
+                "Atelier" : "Section : Atelier",
+                "Cars": "Section : Véhicules",
+                "Testimonials": "Section : Témoignages",
+                "CTA": "Section : Appel d'Action",
+                "Contact" : "Informations de contact"
+            }
+        },
+
+        "CustomerDashboard": {
+            "Title": "Bienvenue dans votre espace d'administration",
+            "Menu": {
+                "RDV": "Mes rendez vous",
+                "Cars": "Mes véhicules",
+                "Informations": "Mes informations personnelles"
+            }
+        }
+    },
+    
+    "Modal": {
+        "ForgotenPassword": {
+            "Title": "Mots de passe oublié? Pas de panique on s'en charge",
+            "SubTitle": "Entrez votre adresse email"
+        },
+
+        "Login": {
+            "Title": "Identifiez Vous",
+            "ID": "Entrez votre adresse email",
+            "Password": "Entrez votre mots de passe",
+            "Register": "Pas de compte? Enregistrez Vous!",
+            "ForgotenPass": "Mots de passe oublié?"
+        },
+
+        "Register": {
+            "Title": "Créez votre compte",
+            "ID": "Entrez votre adresse email",
+            "Password": "Entrez votre mots de passe",
+            "LogIn": "Vous avez déjà un compte? Connectez Vous!"
+        },
+
+        "Address": {
+            "Title": "Notre Adresse",
+            "Name": "Garage V. Parrot",
+            "Street": "28 Avenue Honoré Serre",
+            "ZIP": "31000",
+            "City": "Toulouse",
+            "Phone": "+33 (0)1 32 54 78 96"
+        },
+
+        "Hours": {
+            "Title": "Nos horaires d'ouverture",
+            "Day": {
+                "1": "Lundi",
+                "2": "Mardi",
+                "3": "Mercredi",
+                "4": "Jeudi",
+                "5": "Vendredi",
+                "6": "Samedi",
+                "7": "Dimanche"
+            },
+            "Hours": {
+                "1": "9h-18h",
+                "2": "9h-18h",
+                "3": "9h-18h",
+                "4": "9h-18h",
+                "5": "9h-18h",
+                "6": "9h-12h",
+                "7": "Fermé"
+            }
+        },
+        "RGPD": {
+            "Title" : "Politique de confidentialité et RGPD",
+            "Content": {
+                "Chapter1": {
+                    "Title": "1-Champs d'application",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                },
+                "Chapter2": {
+                    "Title": "2-Protection des données personnelles",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                },
+                "Chapter3": {
+                    "Title": "3-Droits de l'utilisateur",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                },
+                "Chapter4": {
+                    "Title": "4-Textes et Lois",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                }
+            }
+        },
+        "Legal": {
+            "Title": "Mentions Légales",
+            "Content": {
+                "Chapter1": {
+                    "Title": "1-Les Parties",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                },
+                "Chapter2": {
+                    "Title": "2-L'utilisateur",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                },
+                "Chapter3": {
+                    "Title": "3-Les informations et prix",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                },
+                "Chapter4": {
+                    "Title": "4-Réservations",
+                    "Content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque eros ligula, eget placerat dolor ornare ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vitae nunc ex. Duis facilisis lorem est, at sagittis justo lacinia nec. Vestibulum mi est, rhoncus sit amet lectus vitae, scelerisque scelerisque lacus. Cras id tempor risus. Vestibulum imperdiet non nisi et sodales. Nunc rutrum leo ut nulla iaculis tristique. Pellentesque laoreet euismod lectus vitae luctus. Integer eros risus, dictum facilisis vehicula non, euismod non nulla. Nulla non nunc lobortis, ultricies ex vel, imperdiet metus."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "Button": {
+        "LogIn": "Log In",
+        "LogOut": "Log Out",
+        "SignUp": "Sign Up",
+        "Contact": "Contact Us",
+        "DiscoverCar": "Discover the Car",
+        "Continue": "Continue to the Site"
+    },
+
+    "Nav": {
+        "Home": "Home",
+        "Services": "Services",
+        "Atelier": "Workshop",
+        "Cars": "Vehicles"
+    },
+
+    "Footer": {
+        "Links": {
+            "Legal": "Legal Notice",
+            "RGPD": "Privacy Policy",
+            "Hours": "Opening Hours",
+            "Address": "Our Address"
+        }
+    },
+
+    "Pages": {
+        "Home": {
+            "section1": {
+                "Title": "Model S",
+                "SubTitle": "Book your test drive into the future"
+            },
+
+            "section2": {
+                "Title": "Services",
+                "SubTitle": "A service rolling for you for 15 years",
+                "ZoomIn": {
+                    "Atelier": {
+                        "Title": "Our Workshop",
+                        "Subtitle": "This is the subtitle"
+                    },
+                    "CarsRelated": {
+                        "New": {
+                            "Title": "Our New Vehicles",
+                            "Subtitle": "This is the subtitle"
+                        },
+                        "Used": {
+                            "Title": "Our Certified Pre-Owned",
+                            "Subtitle": "This is the subtitle"
+                        }
+                    }
+                },
+                "KeyPoints": {
+                    "1": {
+                        "Title": "KeyPoint 1",
+                        "Subtitle": "This is the subtitle"
+                    },
+                    "2": {
+                        "Title": "KeyPoint 2",
+                        "Subtitle": "This is the subtitle"
+                    },
+                    "3": {
+                        "Title": "KeyPoint 3",
+                        "Subtitle": "This is the subtitle"
+                    },
+                    "4": {
+                        "Title": "KeyPoint 4",
+                        "Subtitle": "This is the subtitle"
+                    },
+                    "CTA": {
+                        "Title": "A Question?",
+                        "Subtitle": "We are here to advise you"
+                    }
+                }
+            },
+
+            "section3": {
+                "Title": "Our Workshop",
+                "Subtitle": "This is the subtitle"
+            },
+
+            "section4": {
+                "Title": "Our Vehicles",
+                "Subtitle": "This is the subtitle"
+            },
+
+            "section5": {
+                "Title": "What do our customers say?",
+                "Subtitle": "Because our customers' opinions matter to us"
+            },
+
+            "section6": {
+                "Title": "A Question? A Specific Need?",
+                "Subtitle": "We are here to advise you!"
+            },
+
+            "section7": {
+                "Title": "Contact Us",
+                "Subtitle": "Send us a message or call us,"
+            }
+        },
+
+        "LogIn": {
+            "Title": "Log In",
+            "ID": "Enter your email address",
+            "Password": "Enter your password",
+            "Register": "No account? Register!",
+            "ForgotenPass": "Forgot password?"
+        },
+
+        "Register": {
+            "Title": "Create your account",
+            "ID": "Enter your email address",
+            "Password": "Enter your password",
+            "LogIn": "Already have an account? Log In!"
+        },
+
+        "AdminDashboard": {
+            "Title": "Welcome to your administration space",
+            "Calendar": "Schedule",
+            "Customers": "Customers",
+            "Cars": "Vehicles",
+            "Hours": "Opening Hours",
+            "Manage": "Content Management",
+            "Sections": "Sections",
+            "Section": {
+                "Hero": "Section: Home Screen",
+                "Services": "Section: Services",
+                "Atelier": "Section: Workshop",
+                "Cars": "Section: Vehicles",
+                "Testimonials": "Section: Testimonials",
+                "CTA": "Section: Call to Action",
+                "Contact": "Contact Information"
+            }
+        },
+
+        "CustomerDashboard": {
+            "Title": "Welcome to your customer area",
+            "Menu": {
+                "RDV": "My appointments",
+                "Cars": "My vehicles",
+                "Informations": "My personal information"
+            }
+        }
+    },
+
+    "Modal": {
+        "ForgotenPassword": {
+            "Title": "Forgot password? Don't panic, we've got you covered",
+            "SubTitle": "Enter your email address"
+        }
+    }
+}
