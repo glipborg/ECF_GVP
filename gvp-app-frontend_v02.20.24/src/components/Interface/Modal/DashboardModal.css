@@ -1,0 +1,102 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(30deg, rgba(2, 2, 61, 0.9), rgba(5, 10, 75, 0.9), rgba(2, 1, 65, 0.9));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5000;
+  }
+
+  .modal-body {
+    width: 80%;
+    min-height: 20vh;
+    max-height: 80vh;
+    background-color: #202020;
+    border: solid 1px rgb(0, 0, 0);
+    color: darkgrey;
+    border-radius: 2vh;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px rgba(75, 72, 255, 0.822);
+    overflow-y: auto;
+    z-index: 2000;
+  }
+  
+  .modal-title {   
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  
+  .modal-content {   
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content h2 {   
+    color: rgb(194, 194, 194);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {   
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .modal a {
+    display: block;
+    padding: 10px 15px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .close-button svg {
+        width: 25px;
+        height: 25px;
+  }
+
+  .close-button:hover {
+        color: rgb(0, 215, 253);
+  }

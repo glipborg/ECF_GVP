@@ -1,0 +1,16 @@
+.modal button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .modal button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 5px  #238dff98;
+  }
