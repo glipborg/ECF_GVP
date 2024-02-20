@@ -1,0 +1,51 @@
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-icon {
+  animation: rotate 10s linear infinite;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: flex-start;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.subBrand {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-left: 0;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

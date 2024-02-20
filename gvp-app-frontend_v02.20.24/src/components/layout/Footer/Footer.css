@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 100%;
+    background-color: #202020;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.foot-links a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.foot-links a:hover {
+    color: rgb(0, 215, 253);
+}

@@ -1,0 +1,51 @@
+.car-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.car-image-row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+}
+
+.car-info-row {
+    padding: 20px;
+}
+
+.car-title, .car-description, .car-keypoints {
+    margin: 10px 0;
+}
+
+.car-keypoints {
+    padding: 0;
+    list-style: none;
+}
+
+.car-buttons-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.discover-btn, .reserve-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.reserve-btn {
+    background-color: #28a745;
+}

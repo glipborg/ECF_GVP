@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    display: block;
+    color: white !important;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    
+  }
+  
+  .nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+    
+  }
+
+  .nav-links a:hover {
+    animation: jumpAndRotate 0.5s ease-in-out forwards;
+    text-decoration: none;
+    color: rgb(0, 215, 253);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+  }
+
+  .login-icon {
+    color: white;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+
+  .login-icon a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+  }
+
+  .login-icon a:hover {
+    animation: jumpAndRotate 0.5s ease-in-out forwards;
+    color: rgb(0, 215, 253);
+    padding-left: 15px;
+  }
+
+  @keyframes jumpAndRotate {
+    0% {
+      transform: translateX(0px) translateY(0) rotate(0deg);
+    }
+    25%{
+      transform: translateX(0px) translateY(-10px) rotate(90deg);
+    }
+    50% {
+      transform: translateX(0px) translateY(-15px) rotate(180deg);
+    }
+    75%{
+      transform: translateX(0px) translateY(-20px) rotate(270deg);
+    }
+    100%{
+      transform: translateX(0px) translateY(0px) rotate(360deg);
+    }
+  }
+/*****************************************************************/  
+/* Mobile navigation */
+.menu-icon {
+    display: none;
+    color: white;
+  }
+
+
+@media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+
+    .menu-icon:hover {
+      color: rgb(0, 215, 253);
+    }
+    
+    .mobile-nav-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(30deg, rgba(2, 2, 61, 0.9), rgba(5, 10, 75, 0.9), rgba(2, 1, 65, 0.9));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 5000;
+    }
+
+    .mobile-nav {
+      width: 80%;
+      background-color: #202020;
+      border-color: solid 1px rgb(0, 0, 0);
+      color: darkgrey;
+      border-radius: 2vh;
+      position: relative;
+      padding-top: 0;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 0px 15px rgba(75, 72, 255, 0.822) !important;
+      z-index: 2000;
+    }
+    
+    .mobile-nav-title {   
+      color: rgb(255, 255, 255);
+      font-size: x-large;
+      font-weight: bold;
+      margin: 10px;
+      margin-left: 0px;
+    }
+    
+    .mobile-nav a {
+      display: block;
+      padding: 10px 15px;
+      left: 10px;
+      right: 10px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .mobile-nav a:last-child {
+      border-bottom: none;
+    }
+  
+    .mobile-nav a:hover {
+      background-color: #4e4e4e85;
+      border-radius: 16px;
+    }
+
+    .link-divider {
+      height: 2px;
+      background-color: rgba(255, 0, 255, 0.507);    }
+
+    .mobile-nav-link {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      max-height: 500px;
+      margin-bottom: 20px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    
+    .mobile-nav-link a {
+      margin-left: 20px;
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: calc(100% - 60px);
+      text-decoration: none;
+    }
+    
+    .mobile-nav-link svg {
+      margin-right: 10px;
+    }
+  
+    .mobile-nav {
+      display: block;
+    }
+
+    .mobile-nav-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      width: calc(100% - 40px);
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .mobile-nav-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5px 0;
+    }
+
+    .close-button {
+      position: flex;
+      top: 30px;
+      margin-right: 0px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+    }
+
+    .close-button svg {
+      width: 25px;
+      height: 25px;
+  }
+
+  }

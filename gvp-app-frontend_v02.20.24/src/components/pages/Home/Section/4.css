@@ -1,0 +1,40 @@
+.section-concession {
+    width: 100%;
+    min-height: 250px;
+    padding: 120px 0;
+    background-color: rgb(255, 254, 254);
+}
+
+.section-vehicles {
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.vehicle-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.vehicle-card {
+  width: calc((100% / 3) - 20px);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.discover-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,13 @@
+.review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px 0;
+    width: calc(50% - 20px);
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,32 @@
+  .section-testimonials{
+    width: 100%;
+    min-height: 250px;
+    padding: 120px 0;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .section-reviews {
+    text-align: center;
+  }
+  
+  .review-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .leave-review-btn {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
